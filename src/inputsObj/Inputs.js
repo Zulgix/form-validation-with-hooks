@@ -1,12 +1,3 @@
-import useForm from "../components/customHooks/useForm";
-
-import React from "react";
-
-// const Inputs = () => {
-//   const { handleChange, values } = useForm();
-//   return <div>Inputs</div>;
-// };
-
 const Inputs = [
   {
     id: "1",

@@ -5,7 +5,7 @@ export const StyledPaper = styled(Paper, {
   name: "StyledPaper",
   slot: "Wrapper",
 })({
-  width: "50%",
+  width: "350px",
   height: "auto",
   padding: "10px",
   border: "solid",

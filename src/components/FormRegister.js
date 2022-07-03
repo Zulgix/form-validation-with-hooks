@@ -1,7 +1,7 @@
 import React from "react";
 import useForm from "./customHooks/useForm";
 import formValidation from "./formValidation";
-import { Grid, Input, Paper, TextField, Typography } from "@mui/material";
+import { Grid } from "@mui/material";
 import StyledButton from "../styles/StyledButton";
 import { StyledPaper } from "../styles/StyledPaper";
 import RadioButtons from "./RadioButtons";
@@ -50,14 +50,6 @@ const FormRegister = ({ inputs }) => {
                     helperText={errors[input.name]}
                   />
                 </Grid>
-
-                /* <Grid item xs={12}>
-                  {errors[input.name] && (
-                    <Typography variant="h10" color="red">
-                      {errors[input.name]}
-                    </Typography>
-                  )} 
-                </Grid>*/
               ))}
             </StyledInputsContainer>
             <Grid item justifySelf="center">

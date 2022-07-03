@@ -6,7 +6,6 @@ import Registered from "./Registered";
 
 const Form = ({ inputs }) => {
   const isSubmitted = useSelector((state) => state.form.isSubmitted);
-  // const [isSubmitted, setIsSubmitted] = useState(false);
 
   return (
     <Grid container item className="formContainer" justifyContent="center">
